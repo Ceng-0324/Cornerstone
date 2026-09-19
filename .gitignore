@@ -1,0 +1,29 @@
+# ===== 虚拟环境（任意层级）=====
+.venv/
+venv/
+env/
+.conda/
+
+# ===== 密钥 / 本地配置 =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ===== Go =====
+*.exe
+*.test
+*.out
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+.idea/
+.vscode/
